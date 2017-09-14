@@ -1,3 +1,5 @@
+luigi
+requests
 jupyter
 nbconvert
 pathlib2
@@ -6,5 +8,4 @@ toolz
 pandas 
 bokeh
 git+https://github.com/tonyfast/importable
-git+https://github.com/tonyfast/literacy
 git+https://github.com/tonyfast/nbd
