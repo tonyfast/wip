@@ -2,14 +2,14 @@
 import setuptools
 
 setuptools.setup(
-    name="forever-whatever",
+    name="wip",
     version="0.0.1",
     author="Tony Fast",
     author_email="tony.fast@gmail.com",
     description="My Personal Blog.",
     license="BSD-3-Clause",
     keywords="IPython Jupyter",
-    url="http://github.com/tonyfast/nbd",
+    url="http://github.com/tonyfast/wip",
     py_modules=setuptools.find_packages(),
     classifiers=[
         "Topic :: Utilities",
