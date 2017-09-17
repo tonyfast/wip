@@ -9,7 +9,7 @@ script:
 - jupyter nbconvert *.ipynb
 - ls **
 
-deploy:
+deploy: 
   local_dir: .
   provider: pages
   skip_cleanup: true
