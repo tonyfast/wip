@@ -17,5 +17,5 @@ from wip import *
 
     [NbConvertApp] Converting notebook index.ipynb to html
     [NbConvertApp] Executing notebook with kernel: python3
-    [NbConvertApp] Writing 253698 bytes to index.html
+    [NbConvertApp] Writing 254547 bytes to index.html
 
