@@ -6,7 +6,6 @@ install:
 - pip install -r requirements.txt
 
 script:
-- jupyter nbconvert **/*.ipynb
 - jupyter nbconvert --stdout readme.ipynb >> index.html 
 - ls **
 
