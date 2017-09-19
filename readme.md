@@ -15,7 +15,7 @@ from wip import *
 !jupyter nbconvert --execute index.ipynb
 ```
 
-    [NbConvertApp] Converting notebook index.ipynb to notebook
+    [NbConvertApp] Converting notebook index.ipynb to html
     [NbConvertApp] Executing notebook with kernel: python3
-    [NbConvertApp] Writing 7946 bytes to index.ipynb
+    [NbConvertApp] Writing 253698 bytes to index.html
 
