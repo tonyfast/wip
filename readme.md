@@ -1,31 +1,21 @@
 
-# wip
+# [<small>works in progress</small>](https://tonyfast.github.io/wip)
+
+<code>pip install git+<a href="https://github.com/tonyfast/wip">https://github.com/tonyfast/wip </a></code>
 
 
 ```python
 from wip import *
 ```
 
-
-      File "<ipython-input-1-f1efa96ff1e0>", line 1
-        from wip import *
-             ^
-    SyntaxError: invalid syntax
-
+# Build
 
 
 ```python
-%%bashjupyter nbconvert --to markdown readme.ipynb
+!jupyter nbconvert --execute index.ipynb
 ```
 
+    [NbConvertApp] Converting notebook index.ipynb to notebook
+    [NbConvertApp] Executing notebook with kernel: python3
+    [NbConvertApp] Writing 7946 bytes to index.ipynb
 
-      File "<ipython-input-2-697e0a9ce889>", line 1
-        jupyter nbconvert --to markdown readme.ipynb
-                        ^
-    SyntaxError: invalid syntax
-
-
-
-```python
-
-```
