@@ -1,3 +1,4 @@
 jupyter
 nbconvert
 git+https://github.com/tonyfast/importable
+-r wip/weed/requirements.txt
