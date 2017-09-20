@@ -2,3 +2,5 @@ beautifulsoup4
 pandas 
 bokeh
 toolz
+lxml
+pyshp
