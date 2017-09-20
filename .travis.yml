@@ -6,13 +6,14 @@ install:
 - pip install -r requirements.txt
 
 script:
-- jupyter nbconvert --stdout readme.ipynb >> index.html 
+- jupyter nbconvert --to markdown --execute readme.ipynb
 - ls **
 
-deploy: 
+deploy:
   local_dir: .
   provider: pages
   skip_cleanup: true
   github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
   on:
     branch: master
+  
